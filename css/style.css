@@ -184,13 +184,6 @@ header h1 {display: flex; justify-content: center; align-items: center; width: 5
 .sc_acc .acc_list > li:hover .hidden_img {opacity: 1;}
 .sc_acc .acc_list .hidden_img img {display: block; width: 100%; height: 100%; object-fit: cover;}
 
-/*바로가기*/
-.menu-list {position: fixed; left: 30px; top: 50%; transform: translateY(-50%);}
-.menu-list > ul > li {position: relative; padding-left: 15px;}
-.menu-list > ul > li + li {margin-top: 20px;}
-.menu-list > ul > li::before {position: absolute; left: 0; top: 50%; transform: translateY(-50%); width: 8px; height: 8px; border-radius: 50%; background-color: #333; content: '';}
-.menu-list > ul > li > a {display: inline-block; font-size: 2.5rem; font-weight: 500;}
-
 @media screen and (max-width: 1024px) {
     header {left: 15px; top: 15px;}
     header h1 {width: 45px; height: 45px; font-size: 2rem;}
